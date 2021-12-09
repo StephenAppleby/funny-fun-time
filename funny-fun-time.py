@@ -13,9 +13,9 @@ def funny_fun_time(delay):
             sleep(delay)
     except KeyboardInterrupt:
         print(random.choice(exit_messages))
-        funny_fun_time(delay * 0.8)
+        funny_fun_time(delay * 0.4)
 
-funny_fun_time(5.0)
+funny_fun_time(8.0)
 
 
 
